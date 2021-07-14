@@ -23,17 +23,18 @@ header{
     background-color: var(--header-background-color);
     margin-bottom: 70px;
 }
-header p{
+header h1{
     font-size: 64px;
     font-weight: 700;
+    color: var(--button-color);
     /* padding: 207px 799px 240px 156px; */
 }
-header a{
+.button-style{
     text-decoration: none;
     font-size: 16px;
     color: var(--button-color);
     background-color: var(--button-background-color);
-    /* padding: 10px 24px 10px 24px; */
+    padding: 10px 24px 10px 24px;
 
 }
 header img{
@@ -48,12 +49,13 @@ main{
     margin: auto;
 }
 
-/* players section design start */
+/*-----------------------players section design start-------------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
     grid-column-gap: 30px;
+    margin-bottom: 150px;
 }
 .player-details{
     height: 474px;
@@ -73,6 +75,28 @@ main{
 .player-info{
     padding: 0px 15px 0px 15px;
 }
-/* players section design end */
+/*---------------------players section design end-----------------------*/
 
 
+/*---------------------All highlight section start-----------------------*/
+.highlights-section{
+    display: flex;
+    align-items: center;
+}
+.highlights-description{
+    margin: 10px;
+    padding: 20px;
+}
+.highlights-description h2{
+    font-size: 48px;
+    font-weight: 700px;
+}
+.highlights-description p{
+    margin-bottom: 30px;
+}
+.highlights-image img{
+    width: 567px;
+    height: 427px;
+}
+
+/*---------------------All highlight section end-------------------------*/
