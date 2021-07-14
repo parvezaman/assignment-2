@@ -191,14 +191,14 @@ footer{
 /*------------media breakpoint for mobile device Start--------------*/
 @media only screen and (max-width: 688px){
     header{
-        width: 100%;
+        width: 300px;
         margin: 0;
         /* padding-left: 640px; */
         display:flex;
         flex-direction:column;
     }
     .city{
-        width: 100%;
+        width: 80;
         display: inline-flex;
     }
     .section-title{
@@ -230,8 +230,8 @@ footer{
         padding-right: 5px;
     }
     .player-details{
-        width: 670px;
-        height: 500px;
+        width: 300px;
+        height: 550px;
         /* margin-left: 15px;
         margin-right: 15px; */
         margin: auto;
@@ -240,14 +240,15 @@ footer{
     .highlights-description p, a, h2{
         width: 400px;
         margin: 20px;
-        padding-left: 30px;
+        padding-left: 10px;
     }
     .highlights-image img{
+        width: 400px;
         margin-left: 20px;
-        padding-left: 150px;
+        padding-left: 10px;
     }
     .city-description p, h1, img{
-        padding-left: 50px;
+        padding-left: 10px;
 
     }
     footer{
@@ -271,10 +272,10 @@ footer{
 /*------------media breakpoint for mobile device end--------------*/
 
 
-/*-----------------media breakpoint for tab Start---------------------*/
+/* -----------------media breakpoint for tab Start---------------------*/
 @media only screen and (min-width:688px) and (max-width:992px){
     header{
-        width: 100%;
+        width: 80%;
         margin: 0;
         /* padding-left: 640px; */
         display:flex;
@@ -365,4 +366,4 @@ footer{
         font-size: 16px;
     } 
 }
-/*-----------------media breakpoint for tab end---------------------*/
+/*-----------------media breakpoint for tab end--------------------- */
