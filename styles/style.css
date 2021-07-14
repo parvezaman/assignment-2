@@ -306,8 +306,9 @@ footer{
         padding-right: 5px;
     }
     .player-details{
+        margin-left: 10px;
         width: 350px;
-        height: 400px;
+        height: 500px;
         margin: auto;
         padding: 10px;
     }
