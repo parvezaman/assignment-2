@@ -39,11 +39,32 @@ header h1{
     padding: 10px 24px 10px 24px;
 
 }
-header img{
+.header-image{
+    /* height: 438px;
+    width: 556px; */
+    position: relative;
+    display: inline-block;
+
+}
+.header-image .first-image{
     height: 438px;
     width: 556px;
 }
-
+.header-image .second-image{
+    height: 438px;
+    width: 556px;
+}
+.header-image .second-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+header:hover .second-image{
+    opacity: 1;
+}
 /*---------------------------header design end----------------------- */
 
 /* body design */
