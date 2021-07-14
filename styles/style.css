@@ -100,3 +100,38 @@ main{
 }
 
 /*---------------------All highlight section end-------------------------*/
+
+/*-------- man of the match start       man of the match start----------*/
+
+.section-title{
+    font-size: 55px;
+    background-color: darkgray;
+    color: var(--button-color);
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 150px;
+}
+.man-of-the-match-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.man-of-the-match-image img{
+    width:  375px;
+    height: 200px;
+}
+
+/*-------- man of the match end       man of the match end-------------- */
+/*-------- Hot cities start     Hot cities start------------------------ */
+
+.city{
+    display: flex;
+}
+.city-description{
+    text-align: justify;
+    margin-right: 25px;
+}
+.city-image img{
+    width: 540px;
+    height: 375px;
+}
+/*-------- Hot cities end     Hot cities end-------------------------- */
