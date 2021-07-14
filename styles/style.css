@@ -134,4 +134,7 @@ main{
     width: 540px;
     height: 375px;
 }
+figcaption{
+    text-align: center;
+}
 /*-------- Hot cities end     Hot cities end-------------------------- */
