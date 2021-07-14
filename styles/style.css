@@ -8,35 +8,35 @@
     --tile-shadow-color: rgba(180, 180, 180, 0.459);
     --button-color: #ffffff;
     --button-background-color: #e02c6d;
-    --description-text-size:16px;
+    --description-text-size:1rem;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
-    width: 100%;
+    /* width: 100%; */
 }
 
 /*---------------------------header design start--------------------- */
 header{
     display: flex;
     align-items: center;
-    padding: 150px 125px 80px 156px;
+    padding: 9.375rem 7.813rem 5rem 9.75rem;
     background-color: var(--header-background-color);
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
     
 }
 header h1{
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     color: var(--button-color);
     /* padding: 207px 799px 240px 156px; */
 }
 .button-style{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--button-color);
     background-color: var(--button-background-color);
-    padding: 10px 24px 10px 24px;
+    padding: 0.625rem 1rem 0.625rem 1rem;
 
 }
 .header-image{
@@ -47,12 +47,12 @@ header h1{
 
 }
 .header-image .first-image{
-    height: 438px;
-    width: 556px;
+    height: 27.375rem;
+    width: 34.75rem;
 }
 .header-image .second-image{
-    height: 438px;
-    width: 556px;
+    height: 27.375rem;
+    width: 34.75rem;
 }
 .header-image .second-image{
     position: absolute;
@@ -68,36 +68,36 @@ header:hover .second-image{
 /*---------------------------header design end----------------------- */
 
 /* body design */
-main{
-    width: 80%;
+/* main{
+    width: 100%;
     margin: auto;
-}
+} */
 
 /*-----------------------players section design start-------------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    margin-bottom: 150px;
+    grid-row-gap: 1.688rem;
+    grid-column-gap: 1.875rem;
+    margin-bottom: 9.375rem;
 }
 .player-details{
-    height: 474px;
-    width: 330px;
-    padding: 15px;
+    height: 29.625rem;
+    width: 20.625rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 0px 40px var(--tile-shadow-color);
+    box-shadow: 0rem 0rem 2.5rem var(--tile-shadow-color);
     
 }
 .player-image img{
-    width: 300px;
-    height: 256px; 
-    padding-top: 15px;
+    width: 18.75rem;
+    height: 16rem; 
+    padding-top: 1rem;
 }
 .player-info{
-    padding: 0px 15px 0px 15px;
+    padding: 0rem 1rem 0rem 1rem;
 }
 .player-info p{
     font-size: var(--description-text-size);
@@ -111,20 +111,20 @@ main{
     align-items: center;
 }
 .highlights-description{
-    margin: 10px;
-    padding: 20px;
+    margin: 0.625rem;
+    padding: 1.25rem;
 }
 .highlights-description h2{
-    font-size: 48px;
-    font-weight: 700px;
+    font-size: 3rem;
+    font-weight: 43.45rem;
 }
 .highlights-description p{
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     font-size: var(--description-text-size);
 }
 .highlights-image img{
-    width: 567px;
-    height: 427px;
+    width: 35.438rem;
+    height: 26.688rem;
 }
 
 /*---------------------All highlight section end-------------------------*/
@@ -132,20 +132,20 @@ main{
 /*-------- man of the match start       man of the match start----------*/
 
 .section-title{
-    font-size: 55px;
+    font-size: 3.438rem;
     background-color: darkgray;
     color: var(--button-color);
     text-align: right;
     padding-right: 3%;
-    margin-top: 150px;
+    margin-top: 10rem;
 }
 .man-of-the-match-images{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .man-of-the-match-image img{
-    width:  375px;
-    height: 200px;
+    width:  23.438rem;
+    height: 12.5rem;
 }
 
 /*-------- man of the match end       man of the match end-------------- */
@@ -156,11 +156,11 @@ main{
 }
 .city-description{
     text-align: justify;
-    margin-right: 25px;
+    margin-right: 1.563rem;
 }
 .city-image img{
-    width: 540px;
-    height: 375px;
+    width: 33.75rem;
+    height: 23.438rem;
 }
 figcaption{
     text-align: center;
@@ -168,29 +168,201 @@ figcaption{
 /*-------- Hot cities end     Hot cities end-------------------------- */
 /*--------Footer start      Footer start------------------------------- */
 footer{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .footer-image img{
-    width: 483px;
-    height: 110px;
+    width: 30.188rem;
+    height: 6.875rem;
 }
 .fab{
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 .footer-links a{
-    margin: 10px;
-    padding: 25px 25px 15px 25px;
+    margin: 0.625rem;
+    padding: 1.563rem 1.563rem 0.938rem 1.563rem;
     background-color: var(--tile-shadow-color);
     border-radius: 60%;
 }
 /*--------Footer end      Footer end------------------------------- */
 
+/*------------media breakpoint for mobile device Start--------------*/
 @media only screen and (max-width: 688px){
     header{
+        width: 100%;
+        margin: 0;
+        /* padding-left: 640px; */
         display:flex;
         flex-direction:column;
     }
+    .city{
+        width: 100%;
+        display: inline-flex;
+    }
+    .section-title{
+        display: inline-block;
+        font-size: 3rem;
+        background-color: darkgray;
+        color: var(--button-color);
+        text-align: right;
+        padding-right: 3%;
+        margin-top: 10rem;
+    } 
+    .players, .highlights-section, .man-of-the-match-images, .city{
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+        display: flex;
+        flex-direction: column;
+        /* grid-template-rows: 1fr; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 40px;
+        padding: 20px;
+        /* display: block; */
+        /* width: fit-content; */
+    }
+    .players{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .player-details{
+        width: 670px;
+        height: 500px;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        margin: auto;
+        padding: 10px;
+    }
+    .highlights-description p, a, h2{
+        width: 400px;
+        margin: 20px;
+        padding-left: 30px;
+    }
+    .highlights-image img{
+        margin-left: 20px;
+        padding-left: 150px;
+    }
+    .city-description p, h1, img{
+        padding-left: 50px;
+
+    }
+    footer{
+        margin-left: 12.5rem;
+    }
+    .fab{
+        font-size: 1.5rem;
+    }
+    .footer-links a{
+        margin: 0rem;
+        padding: 0rem;
+        /* padding: 1rem 1rem 0.5rem 1rem; */
+        background-color: var(--tile-shadow-color);
+        border-radius: 60%;
+    }
+    .footer-copyright p{
+        /* display: inline-block; */
+        font-size: 10px;
+    }
+}    
+/*------------media breakpoint for mobile device end--------------*/
+
+
+/*-----------------media breakpoint for tab Start---------------------*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    header{
+        width: 100%;
+        margin: 0;
+        /* padding-left: 640px; */
+        display:flex;
+        flex-direction:column;
+    }
+    .city{
+        width: 100%;
+        display: inline-flex;
+    }
+    .section-title{
+        display: inline-block;
+        font-size: 3rem;
+        background-color: darkgray;
+        color: var(--button-color);
+        text-align: right;
+        padding-right: 3%;
+        margin-top: 10rem;
+    } 
+    .players, .man-of-the-match-images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* display: flex;
+        flex-direction: column; */
+        /* grid-template-rows: 1fr; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 40px;
+        padding: 20px;
+        /* display: block; */
+        /* width: fit-content; */
+    }
+    .players{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .player-details{
+        width: 350px;
+        height: 400px;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        margin: auto;
+        padding: 10px;
+    }
+    .highlights-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlights-description p, a, h2{
+        width: 400px;
+        margin: 20px;
+        padding-left: 30px;
+    }
+    .highlights-image img{
+        margin-left: 20px;
+        padding-left: 150px;
+    }
+    .city{
+        display: flex;
+        flex-direction: column;
+    }
+    .city-description p, h1, img{
+        padding-left: 50px;
+
+    }
+    .hot-cities-section{
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    footer{
+        margin-left: 12.5rem;
+        margin-bottom: 20px;
+
+    }
+    .fab{
+        font-size: 2rem;
+    }
+    .footer-links a{
+        margin: 0rem;
+        padding: 0rem;
+        /* padding: 1rem 1rem 0.5rem 1rem; */
+        background-color: var(--tile-shadow-color);
+        border-radius: 60%;
+    }
+    .footer-copyright p{
+        font-size: 16px;
+    } 
 }
+/*-----------------media breakpoint for tab end---------------------*/
